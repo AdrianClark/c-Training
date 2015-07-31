@@ -1,0 +1,5 @@
+/Users/adrianclark/Desktop/C_sharp_training/C_sharp_training/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/adrianclark/Desktop/C_sharp_training/C_sharp_training/bin/Debug/C_sharp_training.exe.mdb
+/Users/adrianclark/Desktop/C_sharp_training/C_sharp_training/bin/Debug/C_sharp_training.exe
+/Users/adrianclark/Desktop/C_sharp_training/C_sharp_training/obj/x86/Debug/C_sharp_training.exe
+/Users/adrianclark/Desktop/C_sharp_training/C_sharp_training/obj/x86/Debug/C_sharp_training.exe.mdb

@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="C_sharp_training/C_sharp_training.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="C_sharp_training/Program.cs">
+    <Files>
+      <File FileName="C_sharp_training/Program.cs" Line="10" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
