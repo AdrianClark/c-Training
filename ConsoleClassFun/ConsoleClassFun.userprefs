@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="C_sharp_training/C_sharp_training.csproj">
+﻿<Properties StartupItem="ConsoleClassFun/ConsoleClassFun.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="C_sharp_training/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleClassFun/Program.cs">
     <Files>
-      <File FileName="C_sharp_training/Program.cs" Line="11" Column="21" />
+      <File FileName="ConsoleClassFun/Program.cs" Line="40" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
