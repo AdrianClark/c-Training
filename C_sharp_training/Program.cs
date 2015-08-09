@@ -11,9 +11,14 @@ namespace C_sharp_training
 			//buildString ();
 			//parseTryer("32.339");
 			//getDateTime();
-
+			//string idk = "idk bro I'm just trying to figure out if you can use square brackets to get the index of characters in a string";
+			//int inc = 0;
+//			while (inc < 40)
+//			{
+//				Console.WriteLine (idk[inc]);
+//				inc++;
+//			}
 			Console.WriteLine ("You're doing good, though.");
-			Console.ReadLine ();
 		}
 //
 //		public static void getDateTime()
