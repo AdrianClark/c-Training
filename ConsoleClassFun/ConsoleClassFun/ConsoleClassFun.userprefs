@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="SimpleTextCalculator/SimpleTextCalculator.csproj">
+﻿<Properties StartupItem="ConsoleClassFun.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleTextCalculator/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="SimpleTextCalculator/Program.cs" Line="19" Column="30" />
+      <File FileName="Program.cs" Line="13" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

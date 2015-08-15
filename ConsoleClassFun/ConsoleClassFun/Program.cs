@@ -6,40 +6,51 @@ namespace ConsoleClassFun
 	{
 		public static void Main (string[] args)
 		{	
-			Human Adrian = new Human (25, "Adrian Clark");
-			Console.WriteLine ("Thus we begin a great and brilliant story!");
-			Console.WriteLine ("We meet our hero, {0} at the foot of his bed, crying.", Adrian.name);
-			Console.WriteLine ("Do you ask him why he's crying <type ask> \n or do you walk over to him? <type comfort>");
-			string response = Console.ReadLine();
-
-			if (response == "ask") 
-			{
-				Console.WriteLine ("You walk over and ask him why he's crying...");
-				Console.WriteLine ("\"I'm honestly just bummed right now.\nYou'd think, I am {0} years old and I've never \neven seen the grand canyon. What the hell\"", Adrian.age);
-			} else 
-			{
-				Console.WriteLine ("ignant");
-			}
-
+			Human Adrian = new Human();
+			Adrian.Age = 25;
+			Adrian.Name = "Adrian Clark";
+			Adrian.Gender = "male";
+			Human Evan = new Human (22, "Evan Moore", "Male");
+			Console.WriteLine (Adrian.ToString());
+			Console.WriteLine (Evan.ToString());
 			Console.ReadLine ();
 		}
 
 	}
 
+
+	//this code shows how to create a class, and then how to access the data fields. How do I add a constructor to a method that doesn't need one?
 	public class Human
 	{
-		public int age;
-		public string name;
-		public Human (int ager, string namer)
+		private int age;
+		public int Age 
 		{
-			age = ager;
-			name = namer;
+			get {return age;}
+			set{age = value;}
 		}
 
+		private string name;
+		public string Name 
+		{
+			get {return name;}
+			set{name = value;}
+		}
+
+		public string Gender { get; set; }
+
+		//overriding default ToString method!
+		public override string ToString ()
+		{
+			return string.Format ("My friend {0} is a(n) {1} year old {2}", Name, Age, Gender);
+		}
+		//creating a default and a loaded constructor for the Human class. 
+		public Human () {}
+		public Human (int age, string name, string gender)
+		{
+			Age = age;
+			Name = name;
+			Gender = gender;
+		}
 	}
-//	public class Male : Human
-//	{
-//		
-//	}
 
 }

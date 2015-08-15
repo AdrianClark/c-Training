@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Collections.Generic;
 
 namespace C_sharp_training
 {
@@ -7,18 +8,23 @@ namespace C_sharp_training
 	{
 		public static void Main (string[] args)
 		{
-			//Multiplier ();
-			//buildString ();
-			//parseTryer("32.339");
-			//getDateTime();
-			//string idk = "idk bro I'm just trying to figure out if you can use square brackets to get the index of characters in a string";
-			//int inc = 0;
-//			while (inc < 40)
-//			{
-//				Console.WriteLine (idk[inc]);
-//				inc++;
-//			}
+//			example of a list
+//			List <int> ages = new List<int>();
+//			ages.Add (21);
+//			ages.Add (42);
+//			Console.WriteLine (ages[0]);
+//			ages.RemoveAt (0);
+//			Console.WriteLine(ages[0]);
+
+//			example of a dictionary
+//			Dictionary<string, double> inventory = new Dictionary<string, double>();
+//			inventory.Add ("grapes", 3.99);
+//			inventory.Add ("milk", 4.99);
+//			inventory.Add ("beer", 10.00);
+//			Console.Write ("There are {0} items in this dictionary.", inventory.Keys.Count);
+
 			Console.WriteLine ("You're doing good, though.");
+			Console.ReadLine ();
 		}
 //
 //		public static void getDateTime()
